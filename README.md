@@ -9,7 +9,7 @@
 | PUT |  |Updates the article on web-dev |
 | PATCH |  |Update the article on web-dev  |
 | DELETE | Delete all articles |Delete the article on web-dev  |
-## Get
+## GET
 - find() all articles and sent result back
 ![image](https://user-images.githubusercontent.com/79159894/188518645-005e28ad-2252-4383-8670-2cc877f30fbd.png)
 
@@ -23,7 +23,7 @@
 ![image](https://user-images.githubusercontent.com/79159894/188525175-3bca87ca-e256-490d-96f8-5637835036df.png)
 
 
-## Post
+## POST
 1. create a new constant to store new object in database
 2. save() new object in database
 - ex : 
@@ -34,7 +34,7 @@
 ![image](https://user-images.githubusercontent.com/79159894/188515708-79ed3151-b240-41c3-abfd-b6576802d22b.png)
 
 
-## Delete
+## DELETE
  - use deleteMany() and not specificy deleted target to delete all object in database
  ![image](https://user-images.githubusercontent.com/79159894/188519227-f53e687d-10cb-44a3-8abf-71075728dbfc.png)
  - use deletOne() to delete specific document that match the title that is in the url requested by client
@@ -55,7 +55,7 @@
  ![image](https://user-images.githubusercontent.com/79159894/188562981-ffd7cc73-58e5-475a-bb7c-2a9e7c7e0375.png)
 - Css document no longer exisits.
 - ![image](https://user-images.githubusercontent.com/79159894/188563236-53861bc3-6d98-4882-97e8-ba4d98f7ced9.png)
-## Patch
+## PATCH
 - use update() to search matcging url parameter and use $set to update the specific field of document
 - ex:
 - only update the Postman url page's title with Postman API Platform
