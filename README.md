@@ -1,5 +1,6 @@
 # Wiki-API
-
+- A project that create RESTful API from scratch.
+- The Wiki-API contains 5 RESTful API, GET, POST, PATCCH, DELETE which is the request body sent by client to do opreations to article document in database and then server will sent back the result through API to clinet.
 ## RESTful API
 
 | HTTP Verbs | /articles | /articles/web-dev  |
